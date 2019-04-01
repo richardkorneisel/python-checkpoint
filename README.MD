@@ -3,13 +3,9 @@
 ## Before You Start
 
 - **Fork and clone** this repo.
-- Make sure you have `python3` installed (`python3 --version`)
-- Create a new virtual environment in your preferred location 
-  (`python3 -m virtualenv <path-to-virtualenv>`)
-- Activate the virtual environment that you just created (`source <path-to-virtualenv>/bin/activate`)
-- `cd` to the checkpoint folder you just cloned
-- install the dependencies in `requirements.txt`
-  (`pip install -r requirements.txt`)
+- Run `pipenv install` to install the dependencies for this checkpoint and setup
+    the virtual environment
+- Run `pipenv shell` to activate your virtual environment
 - run `pytest` from your activated terminal to check that the tests are working (`pytest`)
 
 ## Running Tests
