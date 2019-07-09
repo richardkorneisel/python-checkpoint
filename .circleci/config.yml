@@ -27,9 +27,8 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python3 -m venv venv
-            source venv/bin/activate
-            pip3 install -r requirements.txt
+            pipenv install
+            pipenv shell
             pytest
 
       - save_cache:
