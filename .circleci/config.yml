@@ -30,8 +30,7 @@ jobs:
           command: |
             sudo pip install pipenv
             pipenv install
-            pipenv shell
-            pytest
+            pipenv run pytest
       # - run:
       #     name: run tests
       #     command: |
