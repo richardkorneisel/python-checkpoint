@@ -3,11 +3,6 @@
 ## Before You Start
 
 - **Fork and clone** this repo.
-- Run `pip install pipenv` to install `pipenv`
-- Run `pipenv install` to install the dependencies for this checkpoint and setup
-    the virtual environment
-- Run `pipenv shell` to activate your virtual environment
-- run `pytest` from your activated terminal to check that the tests are working (`pytest`)
 
 ## Running Tests
 
